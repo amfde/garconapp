@@ -9,7 +9,9 @@ itens.forEach((item)=>{
         //lista_add.push(item.textContent)
         //lista = [new Set(lista_add)]   
         item.childNodes[1].textContent = parseInt(item.childNodes[1].textContent) + 1
-        console.log(item.childNodes[1].textContent)   
+        console.log(item.childNodes[1].textContent)  
+        var nomeProduto = item.firstChild.textContent;
+        Materialize.toast(nomeProduto + ' adicionado', 1100); 
     })
 })
 
