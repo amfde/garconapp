@@ -5,7 +5,7 @@ const quantidade = document.querySelectorAll('.badge')
 
 itens.forEach((item)=>{
     item.addEventListener('click', (event)=>{              
-        event.preventDefault()
+        event.preventDefault
         //lista_add.push(item.textContent)
         //lista = [new Set(lista_add)]   
         item.childNodes[1].textContent = parseInt(item.childNodes[1].textContent) + 1
@@ -14,4 +14,5 @@ itens.forEach((item)=>{
         Materialize.toast(nomeProduto + ' adicionado', 1100); 
     })
 })
+
 
