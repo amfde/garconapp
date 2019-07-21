@@ -16,3 +16,11 @@ itens.forEach((item)=>{
 })
 
 
+quantidade.forEach((qtd)=>{
+    qtd.addEventListener('click', (event)=>{
+        
+        if(qtd.textContent > 0){
+            qtd.textContent = parseInt(qtd.textContent) - 2
+        }
+    })
+})
