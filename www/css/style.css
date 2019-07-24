@@ -23,4 +23,5 @@ body {
 }
 .botao:hover {
     cursor: pointer;
+    background-color: #efebe9;
 }
