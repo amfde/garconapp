@@ -22,6 +22,6 @@ body {
     padding: 20px;
 }
 .botao:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #efebe9;
 }
