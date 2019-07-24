@@ -21,3 +21,6 @@ body {
 .item-pad {
     padding: 20px;
 }
+.botao:hover {
+    cursor: pointer;
+}
