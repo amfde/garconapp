@@ -5,6 +5,8 @@
   font-family: "Material Icons";
   src: local('Material Icons'),
        local('MaterialIcons-Regular'),
+       url("MaterialIcons-Regular.woff2"),
+       url("MaterialIcons-Regular.woff"),
        url("MaterialIcons-Regular.ttf");
   font-weight: normal;
   font-style: normal;
