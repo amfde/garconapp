@@ -18,9 +18,20 @@ body {
 .section {
     padding-top: 125px;
 }
+.section-itens{
+   padding-top: 15px;
+   padding-bottom: 15px; 
+}
 .item-pad {
     padding: 20px;
 }
+
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+} 
+
 .botao:hover {
     /* cursor: pointer; */
     background-color: #efebe9;
