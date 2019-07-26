@@ -39,3 +39,7 @@ hr.style-three {
 .badge{
     border-radius: 10%;
 }
+#t2{
+    visibility: hidden;
+    
+}
